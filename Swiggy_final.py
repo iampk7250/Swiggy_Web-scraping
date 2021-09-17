@@ -38,19 +38,7 @@ Type "help", "copyright", "credits" or "license()" for more information.
 
 	
 >>> df = pd.DataFrame({'Restaurants':res,'Food Offered':typ,'Reviews':rev,'Disounts':dis})
->>> df.to_csv('Swiggy.csv')
-Traceback (most recent call last):
-  File "<pyshell#13>", line 1, in <module>
-    df.to_csv('Swiggy.csv')
-  File "C:\Python38\lib\site-packages\pandas\core\generic.py", line 3466, in to_csv
-    return DataFrameRenderer(formatter).to_csv(
-  File "C:\Python38\lib\site-packages\pandas\io\formats\format.py", line 1105, in to_csv
-    csv_formatter.save()
-  File "C:\Python38\lib\site-packages\pandas\io\formats\csvs.py", line 237, in save
-    with get_handle(
-  File "C:\Python38\lib\site-packages\pandas\io\common.py", line 702, in get_handle
-    handle = open(
-PermissionError: [Errno 13] Permission denied: 'Swiggy.csv'
+
 >>> df.to_csv('C:/Users/Pratik/Downloads/Programs/pynb/Swiggy.csv',index=False)
 >>> df.info()
 <class 'pandas.core.frame.DataFrame'>
