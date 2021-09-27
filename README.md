@@ -1,7 +1,7 @@
 # Swiggy_Web-scraping
 Scraping Swiggy website
-For this project I have used three library - Selenium, BeautifulSoup, and pandas.
-Using these libraries I have tried to get all the information such as Name of the restuarants, Types of food they offer, Reviews, and Discounts from Swiggy Bangalore website.
+For this project I have used three libraries - Selenium, BeautifulSoup, and pandas.
+Using these libraries I have tried to get all the information such as The Name of the restaurants, Types of food they offer, Reviews, and Discounts from Swiggy Bangalore website.
 The swiggy bangalore have around 1400 restaurants in operations and these restaurants are arranged in grid format in 84 different webpages.
 To iterate through the each webpages I have used a 'while' loop.
 Inside this while loop I have used two nested 'for' loops to iterate through each resaturants in each pages using findAll() function of BeautifulSoup.
